@@ -12,7 +12,7 @@ const tooltip = document.getElementById("myTooltip");
 
 let verb, verbs, startTime, index = 0, is_playing;
 
-fetch('/conjugations.txt')
+fetch('conjugations.txt')
   .then(responses => responses.json())
   .then(resp => {
     console.log(resp);
