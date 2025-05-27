@@ -2,10 +2,10 @@ const staticDev = "lakaara"
 const service_worker_version = "v1.01"
 const assets = [
   "/",
-  "/index.html",
-  "/style.css",
+  "index.html",
+  "style.css",
   "conjugations.txt",
-  "/script.js"
+  "script.js"
 ]
 
 self.addEventListener("install", installEvent => {
