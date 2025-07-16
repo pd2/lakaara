@@ -381,7 +381,7 @@ document.addEventListener("keypress", function onPress(event) {
     }
 });
 
-let copyText, linkURL = "https://lakaara.glitch.me";
+let copyText, linkURL = "https://pd2.github.io/lakaara/";
 
 function ShareIt() {
   
